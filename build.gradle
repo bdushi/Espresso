@@ -4,9 +4,10 @@ buildscript {
     repositories {
         maven { url 'https://maven.google.com' }
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-alpha1'
+        classpath 'com.android.tools.build:gradle:3.5.0'
 
         // Realm database
         classpath "io.realm:realm-gradle-plugin:3.2.1"
@@ -19,6 +20,7 @@ allprojects {
     repositories {
         jcenter()
         maven { url 'https://maven.google.com' }
+        google()
     }
 }
 

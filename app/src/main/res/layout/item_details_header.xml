@@ -23,7 +23,7 @@
     android:layout_marginRight="@dimen/activity_vertical_margin"
     android:layout_marginTop="@dimen/activity_horizontal_margin">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -32,7 +32,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:text="@string/package_name"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -41,7 +41,7 @@
         android:textColor="@color/colorSecondaryText"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -50,7 +50,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:text="@string/package_number"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -59,7 +59,7 @@
         android:id="@+id/textViewPackageNumber"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -68,7 +68,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:text="@string/company_name"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -77,7 +77,7 @@
         android:id="@+id/textViewCompany"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"

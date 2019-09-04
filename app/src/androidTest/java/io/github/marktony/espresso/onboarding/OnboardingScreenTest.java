@@ -1,9 +1,10 @@
 package io.github.marktony.espresso.onboarding;
 
-import android.support.test.espresso.matcher.ViewMatchers;
-import android.support.test.filters.SmallTest;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.espresso.matcher.ViewMatchers;
+import androidx.test.filters.SmallTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.viewpager.widget.ViewPager;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -12,18 +13,18 @@ import org.junit.runner.RunWith;
 import io.github.marktony.espresso.R;
 import io.github.marktony.espresso.ui.onboarding.OnboardingActivity;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.action.ViewActions.swipeLeft;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.isEnabled;
-import static android.support.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.swipeLeft;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.isEnabled;
+import static androidx.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
 
 /**
  * Created by lizhaotailang on 2017/5/13.
- * Tests for the {@link android.support.v4.view.ViewPager} and
+ * Tests for the {@link ViewPager} and
  * other layout components in {@link OnboardingActivity}.
  */
 

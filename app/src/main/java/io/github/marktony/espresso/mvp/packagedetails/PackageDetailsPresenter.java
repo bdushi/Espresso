@@ -16,7 +16,7 @@
 
 package io.github.marktony.espresso.mvp.packagedetails;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import io.github.marktony.espresso.R;
 import io.github.marktony.espresso.data.Package;

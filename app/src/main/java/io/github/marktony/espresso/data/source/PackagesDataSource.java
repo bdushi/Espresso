@@ -16,7 +16,7 @@
 
 package io.github.marktony.espresso.data.source;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 

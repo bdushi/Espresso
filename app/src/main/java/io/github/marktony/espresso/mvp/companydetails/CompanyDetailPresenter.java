@@ -16,7 +16,7 @@
 
 package io.github.marktony.espresso.mvp.companydetails;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import io.github.marktony.espresso.data.Company;
 import io.github.marktony.espresso.data.source.CompaniesRepository;

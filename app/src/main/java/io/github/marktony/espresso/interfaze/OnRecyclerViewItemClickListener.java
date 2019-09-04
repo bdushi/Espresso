@@ -18,9 +18,11 @@ package io.github.marktony.espresso.interfaze;
 
 import android.view.View;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 /**
  * Created by lizhaotailang on 2017/2/11.
- * An interface for {@link android.support.v7.widget.RecyclerView} item.
+ * An interface for {@link RecyclerView} item.
  */
 
 public interface OnRecyclerViewItemClickListener {

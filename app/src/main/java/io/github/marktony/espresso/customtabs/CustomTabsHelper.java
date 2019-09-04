@@ -22,8 +22,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
-import android.support.customtabs.CustomTabsIntent;
-import android.support.v4.content.ContextCompat;
+import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.core.content.ContextCompat;
 import android.widget.Toast;
 
 import io.github.marktony.espresso.R;

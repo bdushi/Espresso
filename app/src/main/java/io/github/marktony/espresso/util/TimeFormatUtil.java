@@ -16,7 +16,7 @@
 
 package io.github.marktony.espresso.util;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Created by lizhaotailang on 2017/3/17.

@@ -1,10 +1,11 @@
 package io.github.marktony.espresso.packages;
 
 import android.graphics.drawable.ColorDrawable;
-import android.support.test.filters.LargeTest;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v7.widget.Toolbar;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Gravity;
 import android.view.View;
 
@@ -18,21 +19,21 @@ import org.junit.runner.RunWith;
 import io.github.marktony.espresso.R;
 import io.github.marktony.espresso.mvp.packages.MainActivity;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.contrib.DrawerActions.open;
-import static android.support.test.espresso.contrib.DrawerMatchers.isClosed;
-import static android.support.test.espresso.contrib.NavigationViewActions.navigateTo;
-import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withParent;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.contrib.DrawerActions.open;
+import static androidx.test.espresso.contrib.DrawerMatchers.isClosed;
+import static androidx.test.espresso.contrib.NavigationViewActions.navigateTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withParent;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.not;
 
 /**
  * Created by lizhaotailang on 2017/5/12.
- * Tests for the {@link android.support.v4.widget.DrawerLayout} layout
+ * Tests for the {@link DrawerLayout} layout
  * component in {@link MainActivity} which manages the navigation
  * within the app.
  */

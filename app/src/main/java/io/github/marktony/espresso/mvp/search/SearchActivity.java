@@ -17,9 +17,9 @@
 package io.github.marktony.espresso.mvp.search;
 
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import io.github.marktony.espresso.R;

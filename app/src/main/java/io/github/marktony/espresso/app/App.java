@@ -18,7 +18,7 @@ package io.github.marktony.espresso.app;
 
 import android.app.Application;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatDelegate;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import io.github.marktony.espresso.util.SettingsUtil;
 import io.realm.Realm;

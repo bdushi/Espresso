@@ -16,7 +16,7 @@
 
 package io.github.marktony.espresso.mvp.packages;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 

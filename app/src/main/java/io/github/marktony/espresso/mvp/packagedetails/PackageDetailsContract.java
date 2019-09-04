@@ -16,15 +16,12 @@
 
 package io.github.marktony.espresso.mvp.packagedetails;
 
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-
-import java.util.List;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 
 import io.github.marktony.espresso.mvp.BasePresenter;
 import io.github.marktony.espresso.mvp.BaseView;
 import io.github.marktony.espresso.data.Package;
-import io.github.marktony.espresso.data.PackageStatus;
 
 /**
  * Created by lizhaotailang on 2017/2/10.
